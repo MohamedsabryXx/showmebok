@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+@import "~bootstrap/scss/bootstrap";
+
+iframe,
+canvas {
+  width: 350px !important;
+  height: 450px !important;
+}
+
+body {
+  background: #202020;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.annotationLayer .linkAnnotation > a,
+.annotationLayer .buttonWidgetAnnotation.pushButton > a:hover {
+  all: unset;
+}
+
+.stf__item {
+  box-shadow: -1px 4px 12px #fff;
+}
